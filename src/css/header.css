@@ -1,0 +1,46 @@
+* {
+    text-decoration: none;
+    color: #eaeaea;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+header {
+    display: flex;
+    width: 100vw;
+    background-color: #111111;
+    color: #eaeaea;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+}
+
+.logo{
+    width: calc(100%/6);
+    position: relative;
+    right: 8%;
+}
+
+nav {
+    display: flex;
+}
+
+ul {
+    font-weight: bold;
+    position: relative;
+    height: 100%;
+}
+ul:hover{
+    color: skyblue;
+    transition: .3s;
+    transform: translate();
+}
+
+

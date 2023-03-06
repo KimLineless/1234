@@ -1,0 +1,24 @@
+.slide_box {
+    width: calc(100%/6);
+    height: 100vh;
+    background-color: #555555;
+    color: #eaeaea;
+    position: absolute;
+    left: -35vh;
+    top: 10vh;
+    transition: .3s;
+} 
+
+.slide_box.on {
+    left: 0vh;
+}
+
+.btn{
+    background-color: #111111;
+    position: absolute;
+    top: 40%;
+    left: 100%;
+    transform: translateY(-50%);
+    padding: 5px 5px;
+    cursor: pointer;
+}
