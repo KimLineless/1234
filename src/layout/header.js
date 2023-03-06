@@ -16,28 +16,30 @@ function Header(){
             <h1 className="logo"><img src={imglogo} alt='logo'></img></h1>
             <nav>
                 <ul>
+                <li>
                     <NavLink to="/map" element={<Map/>}>지도보기</NavLink>
-                </ul>
-                <ul>
+                </li>
+                <li>
                     <NavLink to="/inst" element={<Inst/>}>계측/센서관리</NavLink>
-                </ul>
-                <ul>
+                </li>
+                <li>
                     <NavLink to="/equip" element={<Equip/>}>장비/광센서관리</NavLink>
-                </ul>
-                <ul>
+                </li>
+                <li>
                     <NavLink to="/events" element={<Event/>}>이벤트정보</NavLink>
-                </ul>
-                <ul>
+                </li>
+                <li>
                     <NavLink to="/obsacle" element={<Obsacle/>}>장애정보</NavLink>
-                </ul>
-                <ul>
+                </li>
+                <li>
                     <NavLink to="/stati" element={<Stati/>}>통계</NavLink>
-                </ul>
-                <ul>
+                </li>
+                <li>
                     <NavLink to="/user" element={<User/>}>사용자관리</NavLink>
-                </ul>
-                <ul>
+                </li>
+                <li>
                     <NavLink to="/SMS" element={<Sms/>}>SMS관리</NavLink>
+                </li>
                 </ul>
             </nav>
         </header>

@@ -23,24 +23,26 @@ img {
 }
 
 .logo{
-    width: calc(100%/6);
-    position: relative;
-    right: 8%;
-}
-
-nav {
-    display: flex;
+    width: calc(100%/7);
+    position: absolute;
+    left: 1%;
 }
 
 ul {
+    display: flex;
+}
+
+li {
     font-weight: bold;
     position: relative;
-    height: 100%;
 }
-ul:hover{
+li a:hover{
     color: skyblue;
     transition: .3s;
     transform: translate();
+}
+li a {
+    padding: 28px 15px
 }
 
 
