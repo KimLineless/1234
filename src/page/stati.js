@@ -1,9 +1,9 @@
 import React from 'react';
+import "../css/sub.css"
 
 const Stati = () => {
     return (
-        <div>
-            <h2>통계</h2>
+        <div className='layout'>
         </div>
     );
 };

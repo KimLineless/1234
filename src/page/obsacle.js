@@ -1,9 +1,9 @@
 import React from 'react';
+import "../css/sub.css"
 
 const Obsacle = () => {
     return (
-        <div>
-            <h2>장애정보</h2>
+        <div className='layout'>
         </div>
     );
 };

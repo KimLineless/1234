@@ -1,9 +1,9 @@
 import React from 'react';
+import "../css/sub.css"
 
 const Equip = () => {
     return (
-        <div>
-            <h2>장비관리</h2>
+        <div className='layout'>
         </div>
     );
 };

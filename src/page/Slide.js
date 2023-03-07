@@ -30,14 +30,4 @@ const [visivle,setVisible]=useState(false)
 }
 
 
-
-
-
-function BtnHandler(){
-
-
-
-
-}
-
-export {Slide,BtnHandler}
+export default Slide

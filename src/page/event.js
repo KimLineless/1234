@@ -1,9 +1,9 @@
 import React from 'react';
+import "../css/sub.css"
 
 const Event = () => {
     return (
-        <div>
-            <h2>이벤트정보</h2>
+        <div className='layout'>
         </div>
     );
 };

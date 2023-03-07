@@ -1,9 +1,9 @@
 import React from 'react';
+import "../css/sub.css"
 
 const User = () => {
     return (
-        <div>
-            <h2>사용자관리</h2>
+        <div className='layout'>
         </div>
     );
 };
