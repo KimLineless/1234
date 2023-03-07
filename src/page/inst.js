@@ -1,6 +1,6 @@
 import React from 'react';
 import List from "../component/List.js"
-import Select from "../component/select.js"
+// import Select from "../component/select.js"
 import Chart from "../component/chart.js"
 import P from "../component/P.js"
 import "../css/sub.css"
@@ -9,7 +9,7 @@ const Inst = () => {
     return (
         <div className='inst'>  
             <div className='inst_hd'>
-                <p>계측/센서관리</p>
+                <P value="계측/센서관리"/>
             </div>
             <div className='sub_wrap'>
                 <div className='sub'>
@@ -32,13 +32,13 @@ const Inst = () => {
                     </div>
                 </div>
                 <div className='sub_main'>
-                    <P value="실시간 모니터링"/>
-                    <div className='sel'>
+                    <P value="실시간 모니터링" cla="moniter"/>
+                    {/* <div className='sel'>
                         <P value="검색조건"/>
-                        <Select name="센서 종류" op1="?" op2="?"/>
-                        <Select name="센서명" op1="?" op2="?"/>
-                        <Select name="센서 ID" op1="?" op2="?"/>
-                    </div>
+                        <Select name="센서 종류" op1="1" op2="2"/>
+                        <Select name="센서명" op1="1" op2="2"/>
+                        <Select name="센서 ID" op1="1" op2="2"/>
+                    </div> */}
                     <div className='main_box'>
                         <div className='chart_name'>
                             <div className='chart_hd'>
@@ -47,8 +47,10 @@ const Inst = () => {
                                 <P value="센서ID"/>
                             </div>
                         </div>
-                        <div className='chart'>
-                            <Chart/>
+                        <div className='chart_list'>
+                            <div className='chart'>
+                                <Chart/>
+                            </div>
                         </div>
                     </div>
                 </div>

@@ -2,7 +2,7 @@ import React from 'react';
 
 const P = (props)=>{
     return(
-        <p>{props.value}</p>
+        <p className={props.cla}>{props.value}</p>
     )
 }
 

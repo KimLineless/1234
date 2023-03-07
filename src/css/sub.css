@@ -81,12 +81,47 @@
     background-color: antiquewhite
 };
 
-.sel {
-    display: flex;
-    justify-content: space-between;
+/* .sel {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
-}
+} */
 
 .sel > * {
-    border: 1px solid red;
+    width: 10%;
+    display: inline;
+}
+
+.main_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 50px 60px;
+}
+
+.chart_name {
+    background-color: #111111;
+    height: 400px;
+}
+
+.chart_hd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333333;
+    position: relative;
+    top: 20px;
+}
+
+.chart_hd > * {
+    padding: 3px 35px;
+}
+
+.chart {
+    width: 600px;
+    height: 400px;
+    background-color: aliceblue;
 }
